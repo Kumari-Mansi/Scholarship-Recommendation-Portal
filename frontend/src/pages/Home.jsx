@@ -22,7 +22,7 @@ useEffect(() => {
 useEffect(() => {
   if (!user) return;
 
-  fetch("http://localhost:5000/recommend", {
+  fetch("https://scholarship-backend-1ywz.onrender.com/recommend", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

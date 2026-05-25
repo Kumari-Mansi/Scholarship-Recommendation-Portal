@@ -18,7 +18,7 @@ const StudentForm = ({ onResult }) => {
   async function handleSubmit(e) {
     e.preventDefault();
 
-    const response = await fetch("http://localhost:5000/recommend", {
+    const response = await fetch("https://scholarship-backend-1ywz.onrender.com/recommend", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -1,3 +1,4 @@
+require("dotenv").config();
 const mongoose = require("mongoose");
 const express = require("express");
 const cors = require("cors");
@@ -6,9 +7,9 @@ const Scholarship = require("./models/Scholarship");
 
 const app = express();
 
-mongoose.connect("mongodb://127.0.0.1:27017/scholarshipDB")
-  .then(() => console.log("MongoDB Connected"))
-  .catch((err) => console.log(err));
+mongoose.connect(process.env.MONGO_URI)
+.then(() => console.log("MongoDB Connected"))
+.catch((err) => console.log(err));
 
 app.use(cors());
 app.use(express.json());

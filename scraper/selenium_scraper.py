@@ -23,12 +23,15 @@ driver = webdriver.Chrome(
 
 wait = WebDriverWait(driver, 10)
 
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient(
+    "mongodb://mansi:Mansi123@ac-x0ac8a1-shard-00-00.b2oqhgs.mongodb.net:27017,ac-x0ac8a1-shard-00-01.b2oqhgs.mongodb.net:27017,ac-x0ac8a1-shard-00-02.b2oqhgs.mongodb.net:27017/scholarshipDB?ssl=true&replicaSet=atlas-x1hwib-shard-0&authSource=admin"
+)
 db = client["scholarshipDB"]
 collection = db["scholarships"]
 
-collection.delete_many({})
-print("Old data deleted successfully")
+# collection.delete_many({}) This deletes ALL old scholarships every scrape.
+print("Starting fresh scraping...")
+
 
 def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()

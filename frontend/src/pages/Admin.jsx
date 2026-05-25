@@ -83,7 +83,7 @@ if (!user || user.email !== ADMIN_EMAIL) {
     };
 
     try {
-      const res = await fetch("http://localhost:5000/add-scholarship", {
+      const res = await fetch("https://scholarship-backend-1ywz.onrender.com/add-scholarship", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
