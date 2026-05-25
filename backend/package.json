@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "start": "node index.js"
-},
-"engines": {
-  "node": ">=18"
-},
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
