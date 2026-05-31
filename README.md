@@ -175,6 +175,11 @@ NIAMT, Ranchi
 
 ---
 
+### Note: 
+* The current version is optimized for desktop/laptop usage. Mobile responsiveness improvements are planned for future updates.
+
+---
+
 ## Project Status
 
 Completed and Successfully Deployed
