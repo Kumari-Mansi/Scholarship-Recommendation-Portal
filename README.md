@@ -100,7 +100,7 @@ Selenium Scraper → MongoDB Atlas → Recommendation System → User Interface
 
 ### Student Recommendation Module
 <img width="773" height="839" alt="Screenshot 2026-05-25 234525" src="https://github.com/user-attachments/assets/062afda8-5ee1-4abd-bf18-17b02a406069" />
----
+
 <img width="1914" height="911" alt="Screenshot 2026-05-25 145016" src="https://github.com/user-attachments/assets/600c405f-e827-4b68-82c9-705f9efc4895" />
 
 
@@ -171,7 +171,7 @@ PORT=5000
 
 **Mansi Kumari**
 B.Tech, Electronics & Computer Engineering, 
-National Institute of Advanced Manufacturing Technology (NIAMT), Ranchi
+NIAMT, Ranchi
 
 ---
 
