@@ -95,23 +95,17 @@ Selenium Scraper → MongoDB Atlas → Recommendation System → User Interface
 ## Screenshots
 
 ### Home Page
-
-* Scholarship portal landing page
-* <img width="1918" height="906" alt="Screenshot 2026-05-25 144330" src="https://github.com/user-attachments/assets/b0acc1fc-0fb6-41c5-9163-9d1b8b29420d" />
+ <img width="1918" height="906" alt="Screenshot 2026-05-25 144330" src="https://github.com/user-attachments/assets/b0acc1fc-0fb6-41c5-9163-9d1b8b29420d" />
 
 
 ### Student Recommendation Module
-
-* Eligibility-based scholarship recommendations
-* <img width="773" height="839" alt="Screenshot 2026-05-25 234525" src="https://github.com/user-attachments/assets/062afda8-5ee1-4abd-bf18-17b02a406069" />
-
-* <img width="1914" height="911" alt="Screenshot 2026-05-25 145016" src="https://github.com/user-attachments/assets/600c405f-e827-4b68-82c9-705f9efc4895" />
+<img width="773" height="839" alt="Screenshot 2026-05-25 234525" src="https://github.com/user-attachments/assets/062afda8-5ee1-4abd-bf18-17b02a406069" />
+---
+<img width="1914" height="911" alt="Screenshot 2026-05-25 145016" src="https://github.com/user-attachments/assets/600c405f-e827-4b68-82c9-705f9efc4895" />
 
 
 ### Admin Dashboard
-
-* Scholarship management interface
-* <img width="527" height="688" alt="Screenshot 2026-05-25 224159" src="https://github.com/user-attachments/assets/1c9c1d72-1895-434e-899f-c220107fda96" />
+<img width="527" height="688" alt="Screenshot 2026-05-25 224159" src="https://github.com/user-attachments/assets/1c9c1d72-1895-434e-899f-c220107fda96" />
 
 
 ---
@@ -176,7 +170,7 @@ PORT=5000
 ## Author
 
 **Mansi Kumari**
-B.Tech, Electronics & Computer Engineering
+B.Tech, Electronics & Computer Engineering, 
 National Institute of Advanced Manufacturing Technology (NIAMT), Ranchi
 
 ---
